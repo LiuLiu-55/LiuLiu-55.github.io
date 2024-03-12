@@ -68,7 +68,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: ad0efad6219ca8022434                             #生成的clientID
   clientSecret: bb81c32a8144dfdba248a5fbf144cf444faf4732    #生成的clientSecret
-  repo: https://LiuLiu-55.github.io    #仓库名称
+  repo: LiuLiu-55.github.io    #仓库名称
   owner: LiuLiu-55    #github用户名
   admin: LiuLiu-55
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
