@@ -39,7 +39,8 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+# gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 
@@ -65,8 +66,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 6cbaa4389d74519e2e52                            #生成的clientID
-  clientSecret: 9ad60699b9b111d887b1510d34418901ca1a0db2    #生成的clientSecret
+  clientID: Iv1.119ed996ab8cae06                            #生成的clientID
+  clientSecret: c3e61be6a451d33691b3ddef63a37f3d88efcdf2    #生成的clientSecret
   repo: LiuLiu-55.github.io    #仓库名称
   owner: LiuLiu-55    #github用户名
   admin: LiuLiu-55
