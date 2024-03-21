@@ -4,7 +4,7 @@ title:      Echofusion
 subtitle:   
 date:       2024-03-12
 author:     LiuLiu
-header-img: img/post-bg-BJJ.jpg
+header-img: img/post-bg-debug.png
 catalog: true
 tags:
     - Code
@@ -252,6 +252,7 @@ conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit
 | 10.1 |            |            |           | √         | √         | √         | √         |
 | 9.2  |            |            |           |           | √         | √         | √         |
 | cpu  | √          | √          | √         | √         | √         | √         | √         |
+
 本来准备安装`pytorch1.11.0`的，结果在[网址](https://download.openmmlab.com/mmcv/dist/cu113/torch1.11.0/index.html)中查看没有`mmcv1.4.0`版本，因此安装`pytorch1.10.0`
 
 之后按教程安装，比较顺利。注意`cupy`安装`cupy-cuda113`

@@ -1,7 +1,7 @@
 # Site settings
 title: LIULIU's Blog
 SEOTitle: 刘柳的博客 | LIULIU's Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/home-bg.jpg
 email: liuliucn@outlook.com
 description: "这是刘柳的博客"
 keyword: "LIU,LIU,刘柳，刘柳的博客"
@@ -21,8 +21,8 @@ RSS: false
 # weibo_username:     暂无
 zhihu_username:     暂无
 github_username:    LiuLiu-55
-facebook_username:  暂无
-jianshu_username:   暂无
+# facebook_username:  暂无
+# jianshu_username:   暂无
 #twitter_username:   暂无
 
 
@@ -30,7 +30,7 @@ jianshu_username:   暂无
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-permalink: pretty
+permalink: rouge
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
@@ -83,8 +83,8 @@ ba_track_id: e9f1f0510e25f0b8fda63db0dbae8794
 ga_track_id: 'UA-132855876-1'            # Format: UA-xxxxxx-xx
 ga_domain: auto              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
-
-
+# 分类 categories
+permalink: /:categories/:title/
 
 
 # Featured Tags
